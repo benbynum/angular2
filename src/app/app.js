@@ -1,3 +1,11 @@
+/** To use directives, you must import them first */
+/** FORM_DIRECTIVES (ie: ngModel) */
+/** CORE_DIREVTIVES (ie: ngIf, ngShow, ngClass) */
+/** When importing individually, you must use pascal-case rather than camel-case */
+/** ie: `import { NgClass }` */
+/** and this must match in the @Component */
+/** ie: `directives: [NgClass]` */
+/** Don't ask me why. That's f****** bananas! */
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") return Reflect.decorate(decorators, target, key, desc);
     switch (arguments.length) {

@@ -1,3 +1,13 @@
+/** To use directives, you must import them first */
+/** FORM_DIRECTIVES (ie: ngModel) */
+/** CORE_DIREVTIVES (ie: ngIf, ngShow, ngClass) */
+/** When importing individually, you must use pascal-case rather than camel-case */
+/** ie: `import { NgClass }` */
+/** and this must match in the @Component */
+/** ie: `directives: [NgClass]` */
+/** Don't ask me why. That's f****** bananas! */
+
+
 import {bootstrap, Component, FORM_DIRECTIVES, CORE_DIRECTIVES} from 'angular2/angular2';
 
 class Hero {
